@@ -8,7 +8,7 @@ import SsGamePage from './SsGamePage';
 const SsLandPage = () => {
 
   return (
-    <div className='w-full min-h-screen bg-[url("./ss.webp")] bg-cover flex justify-center items-center border '>
+    <div className='w-full min-h-screen bg-[url("/ss.webp")] bg-cover flex justify-center items-center border '>
 
     <div className='flex flex-col justify-center items-center w-full h-full gap-3'>
       <h1 className='text-4xl text-center text-slate-100 mb-10 font-extrabold tracking-widest'>SUDOKU GAME</h1>

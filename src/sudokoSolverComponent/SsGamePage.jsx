@@ -180,7 +180,7 @@ const SsGamePage = () => {
   
     
   return (
-    <div className='flex flex-col justify-center items-center bg-[url("./ss.webp")] bg-cover bg-center w-full h-screen'>
+    <div className='flex flex-col justify-center items-center bg-[url("/ss.webp")] bg-cover bg-center w-full h-screen'>
       <h1 className='text-3xl text-amber-50 font-mono'>Welcome to Sudoko game Page</h1>
       <p className='text-2xl text-blue-300'>Board: {rand+1}/{initialBoard.length}</p>
       {/* sudoku board banana hai */}
